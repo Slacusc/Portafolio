@@ -1,6 +1,6 @@
 import Home from "../views/home.js"
 
-
+//creation of router
 
 const routes = [
   {
@@ -29,6 +29,9 @@ const routes = [
 //   }
 ]
 
+
+//Function for render
+
 const renderTemplate = () => {
   const view = routes.filter(route => route.path === window.location.pathname)[0]
   const container = document.getElementById("app")
@@ -37,6 +40,8 @@ const renderTemplate = () => {
 
 
 }
+
+// Next and back function
 
 const next = (path) => {
   const view = routes.filter(route => route.path === path)[0]

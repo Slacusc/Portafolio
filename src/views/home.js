@@ -1,4 +1,3 @@
-import {initRouter, next} from "../router/router.js"
 
 
 const Home = () => {
