@@ -1,15 +1,8 @@
-
-
 const Home = () => {
     const template = //html
     `
-    <div id="root" >
-    <div class="topnav">
-      <a href="contact">Contáctame</a>
-      <a href="projects">Proyectos</a>
-      <a href="about">Sobre mí</a>
-      <a class="active" href="/">Home</a>
-    </div>
+<div id="root" >
+
     <div class="container">
       <div class="grid1">
         <div class="ver-line"></div>

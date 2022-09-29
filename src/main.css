@@ -49,6 +49,8 @@
   }
   /* End of Nav configuration */
 
+  /* Grid Home page */
+
   .container {  
 
     display: grid; 
@@ -145,6 +147,35 @@
      margin-top: -63px;
   }
 
+  /* End Grid Home Page */
+
+
+  /* Grid About Page */
+
+
+  .container-about {  
+    display: grid;
+    grid-template-columns: 1.9fr 1.3fr 0.4fr;
+      grid-template-rows: 0.5fr 1.5fr;
+      gap: 0px 0px;
+      grid-auto-flow: row;
+      grid-template-areas:
+        "about1 about2 about3"
+        "about4 about5 about6";
+    }
+    
+    .about1 { grid-area: about1; }
+    
+    .about2 { grid-area: about2; }
+    
+    .about3 { grid-area: about3; }
+    
+    .about4 { grid-area: about4; }
+    
+    .about5 { grid-area: about5; }
+    
+    .about6 { grid-area: about6; }
+    
   
 
 

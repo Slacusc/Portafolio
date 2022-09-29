@@ -1,4 +1,5 @@
 import Home from "../views/home.js"
+import About from "../views/aboutme.js"
 
 //creation of router
 
@@ -6,15 +7,14 @@ const routes = [
   {
     path: '/',
     name: 'Home',
-    template: Home(),}
+    template: Home(),
+},
 
-//   },
-
-//   {
-//     path: '/login',
-//     name: 'Login',
-//     template: Login()
-//   },
+  {
+    path: '/about',
+    name: 'About Me',
+    template: About(),
+  }
 
 //   {
 //     path: '/register',
