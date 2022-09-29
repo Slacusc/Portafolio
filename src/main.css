@@ -15,6 +15,11 @@
     height: 100vh;
   }
 
+  nav {
+    display: flex;
+    align-content: flex-end;
+  }
+
   .container {  
 
     display: grid; 
@@ -54,38 +59,10 @@
     color: aqua;
     
   } */
+  /* section {
+    padding: 40px;
 
-  p {
-    /* color: white;
-    font-size: 70px; */
-    font-family: 'Titillium Web', sans-serif;
-    /*margin-bottom: 0px;
-    margin-top: 200px; */
-    border-right: solid 3px rgba(255, 255, 255, 0.75);
-    white-space: nowrap;
-    overflow: hidden;    
-    font-size: 28px;
-    color: rgba(255,255,255,.70);
-
-  }
-
-  p {
-    animation: animated-text 4s steps(13)
-    1s 1 normal both,
-    animated-cursor 500ms steps(13)
-    inifinite normal;
-  }
-
-  @keyframes animated-text{
-    from{width: 0;}
-    to{width: 300px;}
-  }
-
-  @keyframes animated-cursor{
-    from{border-right-color: rgba(255,255,255,.70);}
-    to{border-right-color: transparent;}
-  }
-
+  } */
   
   h2 {
     color: white;
@@ -127,6 +104,8 @@
     
   }
 
+  /* End of vertical lines */
+
   .icon {
     display: flex;
     align-items: center;
@@ -134,7 +113,7 @@
   }
 
   .corner-img {
-     margin-top: 0px;
+     margin-top: -63px;
   }
 
   

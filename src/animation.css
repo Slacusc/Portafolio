@@ -1,0 +1,68 @@
+/* section{
+    padding: 40px;
+  } */
+  
+  .name {
+    border-right: solid 2px rgba(255, 255, 255, 0.75);
+    white-space: nowrap;
+    overflow: hidden;    
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+    font-weight: bold;
+
+    
+  }
+  
+  /* Animation */
+  .name {
+    animation: animated-text 2s steps(13) 1s 1 normal both,
+    animated-cursor 500ms steps(13) infinite normal;
+  }
+  
+  /* text animation */
+  
+  @keyframes animated-text{
+    from{width: 0;}
+    to{width: 500px;}
+  }
+  
+  /* cursor animations */
+  
+  @keyframes animated-cursor{
+    from{border-right-color: rgba(255,255,255,.70);}
+    to{border-right-color: transparent;}
+  }
+
+  .name2 {
+    border-right: solid 2px rgba(255, 255, 255, 0.75);
+    white-space: nowrap;
+    overflow: hidden;    
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    margin-top: 0px;
+    font-weight: bold;
+    
+  }
+  
+  /* Animation */
+  .name2 {
+    animation: animated-text 2s steps(18) 3s 1 normal both,
+    animated-cursor 500ms steps(18) infinite normal;
+  }
+  
+  /* text animation */
+  
+  @keyframes animated-text{
+    from{width: 0;}
+    to{width: 1000px;}
+  }
+  
+  /* cursor animations */
+  
+  @keyframes animated-cursor{
+    from{border-right-color: transparent;}
+    to{border-right-color: transparent;}
+  }
