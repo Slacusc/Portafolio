@@ -5,19 +5,24 @@ const About = () => {
  <div id="root">
     <div class="container-about">
         <div class="about1"></div>
-        <div class="about2"></div>
+        <div class="about2">
+        <img class="icon3"  src="./src/img/icongit.png" alt="github image">
+        <img class="icon2"  src="./src/img/iconlink.png" alt="linkedin image">
+        </div>
         <div class="about3"></div>
         <div class="about4">
-        <h1>Sobre mí</h1>
-        <h2>Tengo más de 10 años de experiencia en diseño de la interfaz de usuario y la experiencia de usuario de decenas de sitios web y aplicaciones principales de hoy en día. 
+        <h1 class="name3">Sobre mí</h1>
+        <h3 class="bio">Tengo más de 10 años de experiencia en diseño de la interfaz de usuario y la experiencia de usuario de decenas de sitios web y aplicaciones principales de hoy en día. 
         Me apasiona el diseño atrevido pero intuitivo y trabajar para empresas con responsabilidad social.
         Tengo más de 10 años de experiencia en diseño de la interfaz de usuario y la experiencia de usuario de decenas de sitios web y aplicaciones principales de hoy en día. 
         Me apasiona el diseño atrevido pero intuitivo y trabajar para empresas con responsabilidad social.
         
         Tengo más de 10 años de experiencia en diseño de la interfaz de usuario y la experiencia de usuario de decenas de sitios web y aplicaciones principales de hoy en día. 
-        Me apasiona el diseño atrevido pero intuitivo y trabajar para empresas con responsabilidad social.</h2></div>
+        Me apasiona el diseño atrevido pero intuitivo y trabajar para empresas con responsabilidad social.</h3></div>
         <div class="about5"></div>
-        <div class="about6"></div>
+        <div class="about6">
+        <img class="bio-photo" src="./src/img/biofoto.png" alt="biophoto">
+          </div>
     </div>
 
         
