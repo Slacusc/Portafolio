@@ -239,6 +239,29 @@
 
     /* Grid Projects page */
 
+    .container-projects {  display: grid;
+      grid-template-columns: 0.1fr 1.9fr;
+      grid-template-rows: 0.2fr 2.7fr 0.1fr;
+      gap: 0px 0px;
+      grid-auto-flow: row;
+      grid-template-areas:
+        "proy1 proy2"
+        "proy3 proy4"
+        "proy5 proy6";
+    }
+    
+    .proy1 { grid-area: proy1; }
+    
+    .proy2 { grid-area: proy2; }
+    
+    .proy3 { grid-area: proy3; }
+    
+    .proy4 { grid-area: proy4; }
+    
+    .proy5 { grid-area: proy5; }
+    
+    .proy6 { grid-area: proy6; }
+
     
  
   
