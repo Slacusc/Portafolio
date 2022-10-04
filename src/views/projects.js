@@ -20,70 +20,70 @@ const Projects = () => {
      <div class="slider">
       <div class="slider-container">
         <div  class="slide">
-        <a href="https://slacusc.github.io/Survivors-Stage-Cipher/">
+        <a href="https://slacusc.github.io/Survivors-Stage-Cipher/" target="_blank">
           <img src="./src/img/st.png" alt="coding game">
         </div>
         <div  class="slide">
-        <a href="https://github.com/Slacusc/Fancosfic">
+        <a href="https://github.com/Slacusc/Fancosfic" target="_blank">
 
           <img src="./src/img/ff.png" alt="coding game">
         </div>
         <div  class="slide">
-        <a href="https://slacusc.github.io/PokeGo/">
+        <a href="https://slacusc.github.io/PokeGo/" target="_blank">
 
           <img src="./src/img/pg.png" alt="PokeGoogle">
         </div>
         <div  class="slide">
-        <a href="https://slacusc.github.io/Survivors-Stage-Cipher/">
+        <a href="https://slacusc.github.io/Survivors-Stage-Cipher/" target="_blank">
 
           <img src="./src/img/st.png" alt="coding game">
         </div>
         <div  class="slide">
-        <a href="https://github.com/Slacusc/Fancosfic">
+        <a href="https://github.com/Slacusc/Fancosfic" target="_blank">
 
           <img src="./src/img/ff.png" alt="fancosfic">
         </div>
         <div  class="slide">
-        <a href="https://slacusc.github.io/PokeGo/">
+        <a href="https://slacusc.github.io/PokeGo/" target="_blank">
 
           <img src="./src/img/pg.png" alt="PokeGoogle">
         </div>
         <div  class="slide">
-        <a href="https://slacusc.github.io/Survivors-Stage-Cipher/">
+        <a href="https://slacusc.github.io/Survivors-Stage-Cipher/" target="_blank">
 
         <img src="./src/img/st.png" alt="coding game">
       </div>
       <div  class="slide">
-      <a href="https://github.com/Slacusc/Fancosfic">
+      <a href="https://github.com/Slacusc/Fancosfic" target="_blank">
 
         <img src="./src/img/ff.png" alt="fancosfic">
       </div>
       <div  class="slide">
-         <a href="https://slacusc.github.io/PokeGo/">
+         <a href="https://slacusc.github.io/PokeGo/" target="_blank">
         <img src="./src/img/pg.png" alt="PokeGoogle">
       </div>
       <div  class="slide">
-      <a href="https://slacusc.github.io/Survivors-Stage-Cipher/">
+      <a href="https://slacusc.github.io/Survivors-Stage-Cipher/" target="_blank">
 
         <img src="./src/img/st.png" alt="coding game">
       </div>
       <div  class="slide">
-      <a href="https://github.com/Slacusc/Fancosfic">
+      <a href="https://github.com/Slacusc/Fancosfic" target="_blank">
 
         <img src="./src/img/ff.png" alt="fancosfic">
       </div>
       <div  class="slide">
-      <a href="https://slacusc.github.io/PokeGo/">
+      <a href="https://slacusc.github.io/PokeGo/" target="_blank">
 
         <img src="./src/img/pg.png" alt="PokeGoogle">
       </div>
       <div  class="slide">
-      <a href="https://github.com/Slacusc/Fancosfic">
+      <a href="https://github.com/Slacusc/Fancosfic" target="_blank">
 
       <img src="./src/img/ff.png" alt="fancosfic">
     </div>
     <div  class="slide">
-    <a href="https://slacusc.github.io/PokeGo/">
+    <a href="https://slacusc.github.io/PokeGo/" target="_blank">
 
       <img src="./src/img/pg.png" alt="PokeGoogle">
     </div>
