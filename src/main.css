@@ -9,7 +9,7 @@
 
   body {
     font-family: 'Titillium Web', sans-serif;
-    background-image: url(./img/background.png);
+    background-image: url(./img/bkg.png);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -317,20 +317,47 @@
     .proy8 { grid-area: proy8; }
     
   
+/* Slider animation */
 
-
-    .slider-container {
+  .slider {
+      width: 75vw;
+      height: auto;
+      margin: auto;
+      overflow: hidden;
+      border-radius: 20px;
+      margin-top: 50px;
+      -webkit-box-shadow: 11px 14px 5px 3px rgb(0, 0, 0);
+      -moz-box-shadow: 11px 14px 5px 3px rgb(0, 0, 0);
+      box-shadow: 11px 14px 5px 3px rgba(0, 0, 0, 0.533);
+  }
+  
+  .slider .slider-container {
       display: flex;
-      overflow-x: scroll;
-      scroll-snap-type: x mandatory;
+      animation: scroll 40s linear infinite;
+      -webkit-animation: scroll 40s linear infinite;
+      width: calc(500px * 12);
+  }
+  
+  .slider .slide {
+      width: 500px;
+  }
+  
+  .slider .slide img {
+      width: 100%;
+  }
+  
+  @keyframes scroll {
+      0% {
+          -webkit-transform: translateX(0);
+          transform: translateX(0);
+      }
+      100% {
+          -webkit-transform: translateX(calc(-200px * 7));
+          transform: translateX(calc(-200px * 7));
+      }
+  }
 
-    }
-    
-    .slider-container img {
-      scroll-snap-align: center;
-
-    }
-
+  /* End Slider Animation */
 
 
 
