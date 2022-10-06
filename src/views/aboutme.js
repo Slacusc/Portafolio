@@ -6,8 +6,8 @@ const About = () => {
     <div class="container-about">
         <div class="about1"></div>
         <div class="about2">
-        <img class="icon3"  src="./src/img/icongit.png" alt="github image">
-        <img class="icon2"  src="./src/img/iconlink.png" alt="linkedin image">
+        <a href="https://github.com/Slacusc" Target="_blank"><img class="icon3"  src="./src/img/icongit.png" alt="github image"></a>
+        <a href="https://www.linkedin.com/in/soledad-cort%C3%A9s-473a27228/" Target="_blank"><img class="icon3"  src="./src/img/iconlink.png" alt="linkedin image"></a>
         </div>
         <div class="about3"></div>
         <div class="about4">
@@ -26,12 +26,11 @@ const About = () => {
         <li class="bio">CSS</li>
         <li class="bio">HTML</li>
         <li class="bio">React</li>
-
         </div>
         <div class="about5"></div>
         <div class="about6">
         <img class="bio-photo" src="./src/img/biofoto.png" alt="biophoto">
-          </div>
+        </div>
     </div>
 
         
