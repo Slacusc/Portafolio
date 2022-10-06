@@ -159,6 +159,17 @@
     
   }
 
+  .ver-line3 {
+    /* position: absolute; z-index: 5px; */
+    width: 100px;
+    height: 350%;
+    border-right: solid #AAECF8 1px;
+    margin-top: 0px;
+    /* margin-bottom: 100px; */
+
+    
+  }
+
   /* End of vertical lines */
 
   .icon1 {
@@ -462,7 +473,25 @@
 
 .contact1 { grid-area: contact1; }
 
-.contact2 { grid-area: contact2; }
+.contact2 { 
+  
+  grid-area: contact2;
+
+
+}
+
+.name4 {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 70px;
+  color: rgb(255, 255, 255);
+  margin-top: 15px;
+  font-weight: bold;
+  margin-left: 70px;
+
+
+  
+}
+
 
 .contact3 { grid-area: contact3; }
 

@@ -6,10 +6,12 @@ const Contact = () => {
         <div class="contact">
             <div class="contact1"></div>
             <div class="contact2">
-                <h1 class="name3">Contáctame</h1>
+                <h1 class="name4">Contáctame</h1>
             </div>
             <div class="contact3"></div>
-            <div class="contac4"></div>
+            <div class="contac4">
+                <div class="ver-line3">
+            </div>
             <div class="contact5"></div>
             <div class="contact6"></div>
         </div>
