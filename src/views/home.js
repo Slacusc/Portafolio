@@ -12,9 +12,9 @@ const Home = () => {
         <section class="name2">Frontend Developer - Escritora</section>
       </div>
       <div class="grid4">
-        <a href="https://github.com/Slacusc" Target="_blank"><img class="icon"  src="./src/img/icongit.png" alt="github image"></a>
+        <a href="https://github.com/Slacusc" Target="_blank"><img class="icon1"  src="./src/img/icongit.png" alt="github image"></a>
         <br>
-        <a href="https://www.linkedin.com/in/soledad-cort%C3%A9s-473a27228/" Target="_blank"><img class="icon"  src="./src/img/iconlink.png" alt="linkedin image"></a>
+        <a href="https://www.linkedin.com/in/soledad-cort%C3%A9s-473a27228/" Target="_blank"><img class="icon1"  src="./src/img/iconlink.png" alt="linkedin image"></a>
       </div>
       <div class="grid5">
         <h3 class="text-home">Egresada de Frontend Developer de Laboratoria. Mis ansias por aprender me tienen siempre atenta a los cambios 

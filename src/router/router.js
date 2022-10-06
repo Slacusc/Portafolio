@@ -1,6 +1,7 @@
 import Home from "../views/home.js"
 import About from "../views/aboutme.js"
 import Projects from "../views/projects.js"
+import Contact from "../views/contactme.js"
 //creation of router
 
 const routes = [
@@ -20,13 +21,13 @@ const routes = [
     path: '/projects',
     name: 'Proyectos',
     template: Projects()
-  }
+  },
 
-//   {
-//     path: '/home',
-//     name: 'Home',
-//     template: Home()
-//   }
+  {
+    path: '/contact',
+    name: 'contact',
+    template: Contact()
+  }
 ]
 
 
