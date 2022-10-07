@@ -495,7 +495,24 @@
 
 .contact3 { grid-area: contact3; }
 
-.contac4 { grid-area: contac4; }
+.contact5 { 
+  
+  grid-area: contac4;
+  margin-top: 10px;
+  margin-left: 10px;
+
+}
+
+.links {
+  color: #AAECF8;
+  font-size: 50px;
+  margin-left: 20px;
+  
+}
+
+.links:hover {
+  color: #f2f2f2;
+}
 
 .contact5 { grid-area: contact5; }
 
@@ -507,10 +524,16 @@
 @media screen and (max-width:1000px) {
   body {
     flex-direction: column-reverse;
+    justify-content: center;
+    display: block;
+	  width: auto;
+
   }
 
   body > img {
     height: 40%;
+    justify-content: center;
+
   }
   
 
@@ -519,9 +542,13 @@
 @media screen and (max-width:600px) {
   body > img {
     height: 25%;
+    justify-content: center;
+
   }
   
 }
+
+
 
 
 
