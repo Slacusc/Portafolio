@@ -2,6 +2,7 @@ import Home from "../views/home.js"
 import About from "../views/aboutme.js"
 import Projects from "../views/projects.js"
 import Contact from "../views/contactme.js"
+import Process from "../views/process.js"
 //creation of router
 
 const routes = [
@@ -21,6 +22,12 @@ const routes = [
     path: '/projects',
     name: 'Proyectos',
     template: Projects()
+  },
+
+  {
+    path: '/process',
+    name: 'Procesos',
+    template: Process()
   },
 
   {
