@@ -26,7 +26,7 @@ const routes = [
 
   {
     path: '/process',
-    name: 'Procesos',
+    name: 'Proceso',
     template: Process()
   },
 
