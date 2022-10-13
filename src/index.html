@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/main.css" />
+    <link rel="stylesheet" href="./src/animation.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/7faf831ef6.js" crossorigin="anonymous"></script>
+
+    <title>Soledad  Cortés Frontend</title>
+   </head>
+   <body>
+   <header>
+    <div class="topnav" id="myTopnav">
+      <a class="active" href="/">Home</a>
+      <a href="about">Sobre mí</a>
+      <a href="projects">Proyectos</a>
+      <a href="process">Proceso</a>
+      <a href="contact">Contáctame</a>
+
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+   </header>
+    <script>
+      function myFunction() {
+        let x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+    <div id="app">  
+    </div>
+       <script type="module" src="/src/main.js"></script>
+   
+  </body>
+</html>
