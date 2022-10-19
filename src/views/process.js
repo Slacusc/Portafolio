@@ -6,8 +6,8 @@ const Process = () => {
         <div class="process">
             <div class="proc1"></div>
             <div class="proc2">
-            <a href="https://github.com/Slacusc" Target="_blank"><img class="icon3"  src="./src/assets/icongit.png" alt="github image"></a>
-            <a href="https://www.linkedin.com/in/soledad-cort%C3%A9s-473a27228/" Target="_blank"><img class="icon3"  src="./src/assets/iconlink.png" alt="linkedin image"></a>
+            <a href="https://github.com/Slacusc" Target="_blank"><img class="icon3"  src="./assets/icongit.png" alt="github image"></a>
+            <a href="https://www.linkedin.com/in/soledad-cort%C3%A9s-473a27228/" Target="_blank"><img class="icon3"  src="./assets/iconlink.png" alt="linkedin image"></a>
             </div>
             <div class="proc3"></div>
             <div class="proc4">

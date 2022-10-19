@@ -7,8 +7,8 @@ const Projects = () => {
       <div class="proy1"></div>
       <div class="proy2"></div>
       <div class="proy3">
-        <a href="https://github.com/Slacusc" Target="_blank"><img class="icon3"  src="./src/assets/icongit.png" alt="github image"></a>
-        <a href="https://www.linkedin.com/in/soledad-cort%C3%A9s-473a27228/" Target="_blank"><img class="icon3"  src="./src/assets/iconlink.png" alt="linkedin image"></a>
+        <a href="https://github.com/Slacusc" Target="_blank"><img class="icon3"  src="./assets/icongit.png" alt="github image"></a>
+        <a href="https://www.linkedin.com/in/soledad-cort%C3%A9s-473a27228/" Target="_blank"><img class="icon3"  src="./assets/iconlink.png" alt="linkedin image"></a>
       </div>
       <div class="proy4"></div>
       <div class="proy5"></div>
@@ -27,7 +27,7 @@ const Projects = () => {
       <div class="proy8">
         <div class="card">
           <div class="face front">
-            <img src="./src/assets/st.png" alt="">
+            <img src="./assets/st.png" alt="">
             <h3>Survivor Stage Game</h3>
           </div>
           <div class="face back">
@@ -43,7 +43,7 @@ const Projects = () => {
   </div>
   <div class="card">
       <div class="face front">
-          <img src="./src/assets/ff.png" alt="">
+          <img src="./assets/ff.png" alt="">
           <h3>Fancosfic</h3>
       </div>
       <div class="face back">
@@ -59,7 +59,7 @@ const Projects = () => {
 
   <div class="card">
       <div class="face front">
-          <img src="./src/assets/pg.png" alt="">
+          <img src="./assets/pg.png" alt="">
           <h3>PokeGoogle</h3>
       </div>
       <div class="face back">
@@ -75,7 +75,7 @@ const Projects = () => {
   </div>
   <div class="card">
       <div class="face front">
-          <img src="./src/assets/bhp.png" alt="">
+          <img src="./assets/bhp.png" alt="">
           <h3>BHP Payroll</h3>
       </div>
       <div class="face back">
@@ -90,7 +90,7 @@ const Projects = () => {
   </div>
   <div class="card">
   <div class="face front">
-      <img src="./src/assets/veg.png" alt="">
+      <img src="./assets/veg.png" alt="">
       <h3>Veggie Happy</h3>
   </div>
   <div class="face back">
